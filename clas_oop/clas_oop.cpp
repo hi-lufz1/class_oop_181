@@ -7,7 +7,7 @@ public:
 	string nama;
 	void tampil() {
 		cout << "Nim = " << nim;
-		cout << "\n Nama =" << nama;
+		cout << "\nNama =" << nama;
 
 	}
 };
@@ -43,8 +43,9 @@ int main() {
 		cout << "\n Masukkan nama = ";
 		cin >> mhs.nama;
 
-		mhs.tampil();
+		
 		mk.inputmk();
+		mhs.tampil();
 		mk.tampilmk();
 
 }

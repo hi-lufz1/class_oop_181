@@ -21,6 +21,10 @@ public:
 	void input() {
 		cout << "\n Masukan jumlah sks =";
 		cin >> sks;
+		cout << "\n Masukan kode mk =";
+		cin >> kode;
+		cout << "\n Masukan nama mk =";
+		cin >> namaMk;
 
 	}
 };

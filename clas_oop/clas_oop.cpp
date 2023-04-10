@@ -5,7 +5,7 @@ class Mahasiswa {
 public:
 	int nim;
 	string nama;
-	void tanpil() {
+	void tampil() {
 		cout << "Nim = " << nim;
 		cout << "\n Nama =" << nama;
 
@@ -42,6 +42,9 @@ int main() {
 		cin >> mhs.nim;
 		cout << "\n Masukkan nama = ";
 		cin >> mhs.nama;
+
+		mhs.tampil();
+		
 
 
 }

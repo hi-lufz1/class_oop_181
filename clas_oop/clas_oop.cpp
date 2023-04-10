@@ -27,9 +27,9 @@ public:
 		cin >> namaMk;
 
 	}
-	coid tampilmk(){
-	
-	
-	
+	void tampilmk(){
+		cout << "\n Jumlah sks =" << sks;
+		cout << "\n kode Mk = " << kode;
+		cout << "\n nama mk =" << namaMk << endl;
 	}
 };

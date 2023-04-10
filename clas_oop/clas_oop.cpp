@@ -17,3 +17,10 @@ private:
 	int sks;
 	string kode;
 	string namaMk;
+public:
+	void input() {
+		cout << "\n Masukan jumlah sks =";
+		cin >> sks;
+
+	}
+};

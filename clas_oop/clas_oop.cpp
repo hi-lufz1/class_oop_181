@@ -18,7 +18,7 @@ private:
 	string kode;
 	string namaMk;
 public:
-	void input() {
+	void inputmk() {
 		cout << "\n Masukan jumlah sks =";
 		cin >> sks;
 		cout << "\n Masukan kode mk =";
@@ -26,5 +26,10 @@ public:
 		cout << "\n Masukan nama mk =";
 		cin >> namaMk;
 
+	}
+	coid tampilmk(){
+	
+	
+	
 	}
 };
